@@ -2,6 +2,8 @@ mode: auto
 silent: false
 branchName: "issue-${issue.number}/${issue.title,}"
 autoCloseIssue: true
+defaultBranch: 'main'
+autoDeleteBranch: true
 gitSafeReplacementChar: "-"
 branches:
   - label: enhancement
