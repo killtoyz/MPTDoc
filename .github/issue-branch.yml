@@ -1,22 +1,16 @@
 mode: auto
 silent: false
-branchName: "issue-${issue.number}/${issue.title,}"
+branchName: "${issue.number}/${issue.title,}"
 autoCloseIssue: true
-defaultBranch: 'main'
-autoDeleteBranch: true
 gitSafeReplacementChar: "-"
 branches:
   - label: enhancement
-    name: main
     prefix: feat/
   - label: bug
-    name: main
     prefix: fix/
   - label: chore
-    name: main
     prefix: chore/
   - label: documentation
-    name: main
     prefix: docs/
   - label: "*"
     skip: true
