@@ -5,12 +5,16 @@ autoCloseIssue: true
 gitSafeReplacementChar: "-"
 branches:
   - label: enhancement
+    name: main
     prefix: feat/
   - label: bug
+    name: main
     prefix: fix/
   - label: chore
+    name: main
     prefix: chore/
   - label: documentation
+    name: main
     prefix: docs/
   - label: "*"
     skip: true
